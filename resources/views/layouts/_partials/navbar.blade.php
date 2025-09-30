@@ -2,10 +2,10 @@
     <div class="flex items-center justify-between p-6">
         <a href="{{ route('chekmate') }}" class="flex items-center justify-center">
             <i class="fa-solid fa-clipboard-list text-2xl text-orange-500"></i>
-            <h1 class="text-xl md:text-2xl font-extrabold">ChekMate</h1>
+            <h1 class="text-2xl font-extrabold">ChekMate</h1>
         </a>
 
-        <button class="md:hidden bg-orange-500 rounded-lg py-1 px-2 hover:bg-amber-600 transition-colors duration-300 cursor-pointer" id="menu-btn">
+        <button class="md:hidden bg-orange-500 rounded-lg py-2 px-3 hover:bg-amber-600 transition-colors duration-300 cursor-pointer" id="menu-btn">
             <i class="fa-solid fa-bars text-white"></i>
         </button>
         

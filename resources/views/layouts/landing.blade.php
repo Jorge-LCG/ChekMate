@@ -16,6 +16,9 @@
 
         {{-- FontAwesome --}}
         <script src="https://kit.fontawesome.com/6d2b9cad44.js" crossorigin="anonymous"></script>
+
+        {{-- Livewire -Styles --}}
+        @livewireStyles
     </head>
     <body>
         <header class="container mx-auto">
@@ -30,5 +33,8 @@
         <footer>
             @include('layouts._partials.footer')
         </footer>
+
+        {{-- Livewire - Scripts --}}
+        @livewireScripts
     </body>
 </html>
